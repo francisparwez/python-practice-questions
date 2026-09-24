@@ -126,6 +126,103 @@ w
 
 If every character repeats, return None.
 
+## 🧠 Python Practice Progress
+
+### Level 1 — Logic & Core Python
+
+#### 1. FizzBuzz with a twist
+
+Completed — implemented conditional logic for multiples of 3, 5, and both.
+
+#### 2. Find the second-largest number
+
+Completed — found the second-largest unique value without using `sort()` or `sorted()`.
+
+#### 3. Count character frequency
+
+Completed — counted character occurrences while ignoring spaces.
+
+#### 4. Reverse words, not characters
+
+Completed — reversed word order while preserving the characters within each word.
+
+#### 5. Find duplicates
+
+Completed — identified values occurring more than once without duplicate outputs.
+
+### Level 2 — Algorithmic Thinking
+
+#### 6. Find the missing number
+
+Completed — identified the missing value from a sequence without using `sum()`.
+
+#### 7. Two-sum problem
+
+Completed — found the indices of two values whose sum equals the target using a dictionary-based lookup approach.
+
+Input:
+
+```python
+numbers = [2, 7, 11, 15]
+target = 9
+```
+
+Expected output:
+
+```text
+[0, 1]
+```
+
+Key concepts practiced:
+
+- Dictionary/hash-map lookup
+- Complement calculation
+- `enumerate()`
+- O(n) time complexity
+
+#### 8. Find the longest word
+
+Completed — found the longest word by tracking the longest value seen during a single loop without using `max(..., key=len)`.
+
+Input:
+
+```python
+words = ["python", "sql", "machine", "learning", "data", "engineering"]
+```
+
+Key concepts practiced:
+
+- Tracking a best-so-far value
+- String length comparison with `len()`
+- Single-pass iteration
+- O(n) time complexity
+
+#### 9. Run-length encoding
+
+Completed — converted consecutive repeated characters into character/count pairs.
+
+Input:
+
+```python
+text = "aaabbccccdaa"
+```
+
+Expected output:
+
+```text
+a3b2c4d1a2
+```
+
+Key concepts practiced:
+
+- State changes inside loops
+- Tracking the current character
+- Counting consecutive occurrences
+- Detecting when a group ends
+- Handling the final group after the loop
+
+**Progress: 9 / 20 Python questions completed ✅**
+
 ## Level 3 — Data Science Logic
 
 11. Calculate mean without NumPy
