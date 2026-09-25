@@ -346,6 +346,109 @@ Return:
 
 "C": 1}
 
+## 🧠 Level 3 — Data Science Logic — Completed
+
+#### 11. Calculate mean without NumPy
+
+Completed — calculated the arithmetic mean using native Python and handled an empty list without crashing.
+
+Key concepts practiced:
+
+- Mean calculation
+- List length
+- Empty-input handling
+- Basic defensive programming
+
+#### 12. Calculate median
+
+Completed — implemented median logic for both odd-length and even-length lists without NumPy or `statistics`.
+
+Key concepts practiced:
+
+- Sorting
+- Integer division with `//`
+- Odd vs. even list lengths
+- Selecting the middle value(s)
+- Averaging the two middle values for even-length lists
+
+#### 13. Remove outliers
+
+Completed — used the IQR method to separate normal values from outliers.
+
+Input:
+
+```python
+values = [10, 12, 11, 13, 12, 15, 14, 100, 11, 13]
+```
+
+Expected result:
+
+```text
+normal_values = [10, 11, 11, 12, 12, 13, 13, 14, 15]
+outliers = [100]
+```
+
+Key concepts practiced:
+
+- Median calculation
+- Q1 and Q3
+- Interquartile range (IQR)
+- Lower and upper bounds
+- Separating normal values from outliers
+- Edge-case handling for empty input
+
+#### 14. Group and aggregate
+
+Completed — calculated total sales for each city using a dictionary-based running total.
+
+Expected output:
+
+```python
+{
+    "Karachi": 3700,
+    "Lahore": 2000,
+    "Islamabad": 1200
+}
+```
+
+Key concepts practiced:
+
+- Dictionary aggregation
+- Running totals
+- Tuple unpacking
+- Grouping by a key
+- Python equivalent of SQL `GROUP BY` + `SUM()`
+
+#### 15. Build your own value counter
+
+Completed — built a frequency counter from scratch without `collections.Counter` or pandas.
+
+Input:
+
+```python
+values = ["A", "B", "A", "C", "B", "A"]
+```
+
+Expected output:
+
+```python
+{
+    "A": 3,
+    "B": 2,
+    "C": 1
+}
+```
+
+Key concepts practiced:
+
+- Dictionary frequency counting
+- Membership checks with `in`
+- Incrementing counters
+- Recognizing reusable aggregation patterns
+- Python equivalent of a categorical frequency count
+
+**Progress: 15 / 20 Python questions completed ✅**
+
 ## Level 4 — Real Problem-Solving
 
 16. Moving average
