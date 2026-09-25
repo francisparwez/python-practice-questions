@@ -221,7 +221,40 @@ Key concepts practiced:
 - Detecting when a group ends
 - Handling the final group after the loop
 
-**Progress: 9 / 20 Python questions completed ✅**
+#### 10. Find the first non-repeating character
+
+Completed — found the first character whose total frequency is exactly 1 while preserving the original character order.
+
+Input:
+
+```python
+text = "swiss"
+```
+
+Expected output:
+
+```text
+w
+```
+
+If every character repeats, return:
+
+```text
+None
+```
+
+Key concepts practiced:
+
+- Building a frequency dictionary from scratch
+- Dictionary `.get()` for counting
+- Two-pass algorithm
+- Preserving original order
+- Identifying characters with frequency `1`
+- Handling the case where no unique character exists
+- O(n) time complexity
+- O(k) space complexity, where `k` is the number of distinct characters
+
+**Progress: 10 / 20 Python questions completed ✅**
 
 ## Level 3 — Data Science Logic
 
