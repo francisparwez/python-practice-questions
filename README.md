@@ -633,6 +633,69 @@ based on order amount:
 
 > 50,000 → High
 
+## 🧠 SQL Practice Progress
+
+### Level 1 — SQL Fundamentals — Completed
+
+#### 1. Filtering
+
+Completed — filtered orders using multiple conditions with `WHERE`.
+
+Key concepts practiced:
+
+- `WHERE`
+- Comparison operators
+- `AND`
+- Filtering numeric and categorical values
+
+#### 2. Aggregation
+
+Completed — calculated total revenue, average order value, minimum order value, maximum order value, and number of orders.
+
+Key concepts practiced:
+
+- `SUM()`
+- `AVG()`
+- `MIN()`
+- `MAX()`
+- `COUNT()`
+- Column aliases
+
+#### 3. GROUP BY
+
+Completed — calculated total revenue for each order status.
+
+Key concepts practiced:
+
+- `GROUP BY`
+- Aggregate functions
+- Group-level analysis
+- Categorical aggregation
+
+#### 4. HAVING
+
+Completed — identified customers whose total spending exceeds 100,000.
+
+Key concepts practiced:
+
+- `GROUP BY`
+- `HAVING`
+- Filtering aggregated results
+- Customer-level aggregation
+
+#### 5. CASE
+
+Completed — classified orders into Low, Medium, and High amount categories using `CASE`.
+
+Key concepts practiced:
+
+- `CASE`
+- Conditional logic in SQL
+- Derived columns
+- Translating business rules into SQL
+
+**SQL Progress: 5 / 20 questions completed ✅**
+
 ## Level 2 — Joins & Analytical Thinking
 
 6. INNER JOIN
